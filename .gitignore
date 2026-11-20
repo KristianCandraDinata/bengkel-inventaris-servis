@@ -8,6 +8,7 @@ vendor/
 !.env.example
 *.pem
 *.key
+config/database.php
 
 # Hasil build
 dist/
