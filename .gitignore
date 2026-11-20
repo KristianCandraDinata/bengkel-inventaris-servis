@@ -1,0 +1,33 @@
+# Dependency
+node_modules/
+vendor/
+
+# Environment dan file rahasia
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Hasil build
+dist/
+build/
+.next/
+.nuxt/
+public/build/
+
+# Log dan cache
+*.log
+npm-debug.log*
+.cache/
+storage/logs/
+
+# File sistem dan editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Database lokal
+*.sqlite
+*.db
