@@ -30,12 +30,14 @@ Struktur Folder
 
 Cara Menjalankan
 1. Clone repository ke folder `www` Laragon.
-2. Salin `config/database.example.php` menjadi `config/database.php`, lalu sesuaikan kredensial MySQL.
-3. Langkah pembuatan database akan dilengkapi setelah skema tersedia.
+2. Salin `config/database.example.php` menjadi `config/database.php`, lalu isi kredensial MySQL.
+3. Impor `database/schema.sql` lewat HeidiSQL atau phpMyAdmin.
+4. Buat akun admin: `php database/buat-admin.php "Nama" username password`
+5. Buka `pages/login.php` di browser.
 
 Progres Milestone
 | Milestone | Status | Keterangan |
 |-----------|--------|------------|
 | Tahap 1 | Selesai | Setup repository, `.gitignore`, struktur folder, dan konfigurasi database awal |
-| Tahap 2 | Belum dimulai | - |
+| Tahap 2 | Selesai | Skema database, koneksi PDO, serta login dan logout |
 | Tahap akhir | Belum dimulai | - |
